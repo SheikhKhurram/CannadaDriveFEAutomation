@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Canadadrive_FE_Automation" duration-ms="31974" started-at="2022-02-14T16:46:33Z" finished-at="2022-02-14T16:47:05Z">
+    <groups>
+    </groups>
+    <test name="End to End Test" duration-ms="31974" started-at="2022-02-14T16:46:33Z" finished-at="2022-02-14T16:47:05Z">
+      <class name="com.qa.Testcases.EndToEndTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.Testcases.EndToEndTest@239963d8]" name="setup" is-config="true" duration-ms="10096" started-at="2022-02-14T16:46:33Z" finished-at="2022-02-14T16:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EndToEndTest(com.qa.Utility.Config, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Testcases.EndToEndTest@239963d8]" name="EndToEndTest" duration-ms="20362" started-at="2022-02-14T16:46:43Z" description="This testcase will book a car" data-provider="getTestConfig" finished-at="2022-02-14T16:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.qa.Utility.Config@650e5bc4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Make & Model]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Price: High to Low]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Testcases.EndToEndTest@239963d8]" name="tearDown" is-config="true" duration-ms="300" started-at="2022-02-14T16:47:04Z" finished-at="2022-02-14T16:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quittingBrowser()[pri:0, instance:com.qa.Testcases.EndToEndTest@239963d8]" name="quittingBrowser" is-config="true" duration-ms="621" started-at="2022-02-14T16:47:04Z" finished-at="2022-02-14T16:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quittingBrowser -->
+      </class> <!-- com.qa.Testcases.EndToEndTest -->
+    </test> <!-- End to End Test -->
+  </suite> <!-- Canadadrive_FE_Automation -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Canadadrive_FE_Automation" parallel="tests" thread-count="1">
+
+    <listeners>
+        <listener class-name="com.qa.Listeners.TestListeners"/>
+        <listener class-name="com.qa.Listeners.RetryListenerClass"/>
+    </listeners>
+    
+    <test name="End to End Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.qa.Testcases.EndToEndTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+<!--    <test name="End to End firefox Test">-->
+<!--        <parameter name="browser" value="opera"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.Testcases.EndToEndTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+
+</suite> <!-- Suite -->
